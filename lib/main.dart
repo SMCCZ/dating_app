@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
-
 import 'infrastructure/navigation/navigation.dart';
 import 'infrastructure/navigation/routes.dart';
 import 'initilizer.dart';
@@ -22,7 +20,6 @@ class MyApp extends StatelessWidget {
       initialRoute: initialRoute,
       getPages: Nav.routes,
       theme: ThemeData.dark(),
-      
     );
   }
 }
