@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-import 'controllers/signupscreen.controller.dart';
+import 'controllers/login.controller.dart';
 
-class SignupscreenScreen extends GetView<SignupscreenController> {
-  const SignupscreenScreen({Key? key}) : super(key: key);
+class LoginScreen extends GetView<LoginController> {
+  const LoginScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('SignupscreenScreen'),
+        title: const Text('LoginScreen'),
         centerTitle: true,
       ),
       body: const Center(
         child: Text(
-          'SignupscreenScreen is working',
+          'LoginScreen is working',
           style: TextStyle(fontSize: 20),
         ),
       ),

@@ -13,6 +13,8 @@ class Routes {
 
   static const AUTH = '/auth';
   static const HOME = '/home';
+  static const LOGIN = '/login';
   static const LOGINSCREEN = '/loginscreen';
   static const SIGNUPSCREEN = '/signupscreen';
+  static const SIGNUP = '/signup';
 }

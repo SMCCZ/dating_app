@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       initialRoute: initialRoute,
       getPages: Nav.routes,
-      theme: ThemeData.dark(),
+      // theme: ThemeData.dark(),
     );
   }
 }

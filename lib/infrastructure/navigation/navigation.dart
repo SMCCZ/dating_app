@@ -37,14 +37,14 @@ class Nav {
       binding: AuthControllerBinding(),
     ),
     GetPage(
-      name: Routes.LOGINSCREEN,
-      page: () => const LoginscreenScreen(),
-      binding: LoginscreenControllerBinding(),
+      name: Routes.LOGIN,
+      page: () => const LoginScreen(),
+      binding: LoginControllerBinding(),
     ),
     GetPage(
-      name: Routes.SIGNUPSCREEN,
-      page: () => const SignupscreenScreen(),
-      binding: SignupscreenControllerBinding(),
+      name: Routes.SIGNUP,
+      page: () => const SignupScreen(),
+      binding: SignupControllerBinding(),
     ),
   ];
 }
