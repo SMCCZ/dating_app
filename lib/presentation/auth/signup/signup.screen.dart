@@ -25,16 +25,16 @@ class SignupScreen extends GetView<SignupController> {
               fontSize: 14,
             ),
           ),
-          _SignUpButton(),
+          const _SignUpButton(),
           Text(
             "Use phone number",
             style: GoogleFonts.roboto(
               fontSize: 14,
             ),
           ),
-          _SignUpDivider(),
-          _SocialSignUpButtons(),
-          _TermsAndPrivacyPolicyLinks()
+          const _SignUpDivider(),
+          const _SocialSignUpButtons(),
+          const _TermsAndPrivacyPolicyLinks()
         ],
       ),
     );
@@ -56,7 +56,27 @@ class _SocialSignUpButtons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [],
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(
+            Icons.facebook,
+          ),
+        ),
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(
+            Icons.apple,
+          ),
+        ),
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(
+            Icons.mail,
+          ),
+        ),
+      ],
     );
   }
 }
@@ -118,7 +138,7 @@ class _TermsAndPrivacyPolicyLinks extends StatelessWidget {
           style: GoogleFonts.roboto(
             fontSize: 14,
           ),
-        )
+        ),
       ],
     );
   }
